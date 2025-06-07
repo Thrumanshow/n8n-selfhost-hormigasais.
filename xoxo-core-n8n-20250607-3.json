@@ -1,0 +1,102 @@
+{
+  "name": "xoxo-core",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "xoxo-core",
+        "method": "POST"
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        240,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "return [{ json: {\n  key: $json.issue.key,\n  summary: $json.issue.fields.summary,\n  description: $json.issue.fields.description,\n  status: $json.issue.fields.status.name,\n  reporter: $json.user.displayName\n}}];"
+      },
+      "name": "Jira Issue Parser",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        480,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [
+            {
+              "value1": "={{$json.status}}",
+              "value2": "To Do"
+            },
+            {
+              "value1": "={{$json.status}}",
+              "value2": "In Progress"
+            }
+          ]
+        }
+      },
+      "name": "Condition",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [
+        720,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "channel": "#hormigasais-xoxo",
+        "text": "\ud83c\udf99\ufe0f XOXO escucha...\n\nChris Qui\u00f1onez ha activado: *{{$json.summary}}* ({{$json.key}})\nEstado actual: *{{$json.status}}*\n\n\ud83e\udded Descripci\u00f3n:\n{{$json.description}}\n\n\ud83e\udde9 Nodo: xoxo-core / n8n\n\ud83d\udd17 Ver en Jira: https://chrisquionez.atlassian.net/browse/{{$json.key}}"
+      },
+      "name": "Slack Message",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 1,
+      "position": [
+        960,
+        200
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Jira Issue Parser",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Jira Issue Parser": {
+      "main": [
+        [
+          {
+            "node": "Condition",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Condition": {
+      "main": [
+        [
+          {
+            "node": "Slack Message",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    }
+  }
+}
