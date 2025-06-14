@@ -5,6 +5,10 @@
 [![Newsletter](https://img.shields.io/badge/Newsletter-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/newsletters/hormigasais-community-7307138608543490048)
 [![Overleaf](https://img.shields.io/badge/Overleaf-Colaboración-blue?logo=overleaf)](https://www.overleaf.com/project/68211943b603360a835cd2cd)
 
+---
+
+## 📌 Objetivo
+Crear automatizaciones inteligentes con IA ligera, conectadas a Slack, GitHub y otras herramientas colaborativas, usando flujos autoalojados en n8n.
 
 Este repositorio forma parte del ecosistema **HormigasAIS** y contiene los flujos de trabajo, scripts y documentación necesarios para desplegar y mantener el bot inteligente `HormigaxoxoBot-AI`, conectado con Slack y GitHub mediante una instancia autoalojada de n8n.
 
