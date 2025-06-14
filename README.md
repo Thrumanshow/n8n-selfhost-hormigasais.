@@ -22,7 +22,7 @@ Diseñar automatizaciones que conecten conversaciones humanas, herramientas cola
 - 🌐
 [![Wikipedia Usuario](https://img.shields.io/badge/Wikipedia-Perfil%20HormigasAIS-black?logo=wikipedia)](https://uk.wikipedia.org/wiki/Користувач:HormigasAIS)
 
--⏯
+- ⏯
 [![Repositorio base](https://img.shields.io/badge/GitHub-Laboratorio%20Open%20Lab-24292e?logo=github)](https://github.com/Thrumanshow/Mkdir-HormigasAIS-Open-Lab-/tree/main/.github)
 
 
