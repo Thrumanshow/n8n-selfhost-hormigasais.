@@ -49,6 +49,10 @@ Diseñar automatizaciones que conecten conversaciones humanas, herramientas cola
 
 ---
 
+> Este proyecto forma parte del ecosistema abierto [HormigasAIS Open Lab](https://github.com/HormigasAIS-ux/Mkdir-HormigasAIS-Open-Lab-), una iniciativa experimental y colaborativa desarrollada por [HormigasAIS-ux](https://github.com/HormigasAIS-ux), orientada a conectar automatización, UX e inteligencia colectiva.
+
+---
+
 ## 🧪 En desarrollo...
 
 - Flujo `"Frase del Día"` con IA generativa.
