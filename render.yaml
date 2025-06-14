@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: n8n-selfhost-hormigasais
+    env: docker
+    repo: https://github.com/HormigasAIS/n8n-selfhost-hormigasais
+    branch: main
+    plan: starter
+    envVars:
+      - key: GENERIC_TIMEZONE
+        value: America/El_Salvador
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: admin
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: SuperSecretPass
+      - key: N8N_HOST
+        value: 0.0.0.0
+      - key: N8N_PORT
+        value: "5678"
+      - key: N8N_PROTOCOL
+        value: https
+      - key: N8N_EDITOR_BASE_URL
+        value: https://n8n-selfhost-hormigasais.onrender.com
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    buildFilter:
+      paths:
+        - Dockerfile
+        - render.yaml
+        - .env
