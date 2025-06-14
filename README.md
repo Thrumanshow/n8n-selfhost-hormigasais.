@@ -8,7 +8,8 @@ Este repositorio forma parte del ecosistema **HormigasAIS** y contiene los flujo
 
 Diseñar automatizaciones que conecten conversaciones humanas, herramientas colaborativas y decisiones potenciadas por IA ligera, usando:
 
-- 🧠 **n8n** (automatización visual)
+- 🧠 [![n8n-selfhost](https://img.shields.io/badge/n8n-selfhost--hormigasais-blue?logo=n8n)](https://github.com/Thrumanshow/n8n-selfhost-hormigasais.)
+
 - 💬 **Slack** (interacción humana y canales)
 - 🧪 **GitHub** (gestión de código y flujos)
 - 🐍 **Python** (scripts complementarios de IA)
