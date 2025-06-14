@@ -1,8 +1,9 @@
 # 🤖 HormigaxoxoBot-AI | n8n-selfhost-hormigasais
 
-![Render Status](https://render.com/api/v1/services/YOUR_SERVICE_ID/deploys/badge)  
-![Slack Badge](https://img.shields.io/badge/Slack-HormigasAIS-blue?logo=slack)  
-![GitHub last commit](https://img.shields.io/github/last-commit/Thrumanshow/n8n-selfhost-hormigasais)
+[![Slack](https://img.shields.io/badge/Slack-HormigasAIS-blue?logo=slack)](https://join.slack.com/t/hormigas-ais/shared_invite/zt-33zssiv5x-WXs1_8mQ6_9m0O9g0VNgAA)
+[![GitHub](https://img.shields.io/badge/Repositorio-GitHub-blue?logo=github)](https://github.com/Thrumanshow/n8n-selfhost-hormigasais)
+[![Newsletter](https://img.shields.io/badge/Newsletter-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/newsletters/hormigasais-community-7307138608543490048)
+[![Overleaf](https://img.shields.io/badge/Overleaf-Colaboración-blue?logo=overleaf)](https://www.overleaf.com/project/68211943b603360a835cd2cd)
 
 
 Este repositorio forma parte del ecosistema **HormigasAIS** y contiene los flujos de trabajo, scripts y documentación necesarios para desplegar y mantener el bot inteligente `HormigaxoxoBot-AI`, conectado con Slack y GitHub mediante una instancia autoalojada de n8n.
