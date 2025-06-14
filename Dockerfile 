@@ -1,0 +1,25 @@
+# Imagen base oficial de n8n
+FROM n8nio/n8n:latest
+
+# Establece el directorio de trabajo
+WORKDIR /data
+
+# Copia archivos personalizados si los tienes
+# COPY ./custom /data/custom
+
+# Variables de entorno (usadas en render.yaml)
+ENV GENERIC_TIMEZONE=America/El_Salvador \
+    WEBHOOK_URL=https://your-custom-url.onrender.com/ \
+    N8N_BASIC_AUTH_ACTIVE=true \
+    N8N_BASIC_AUTH_USER=admin \
+    N8N_BASIC_AUTH_PASSWORD=password \
+    N8N_HOST=0.0.0.0 \
+    N8N_PORT=5678 \
+    N8N_PROTOCOL=https \
+    N8N_EDITOR_BASE_URL=https://your-custom-url.onrender.com
+
+# Exponemos el puerto usado por n8n
+EXPOSE 5678
+
+# Comando para iniciar el servidor
+CMD ["n8n"]
