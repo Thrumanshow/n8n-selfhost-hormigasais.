@@ -8,33 +8,6 @@
 
 Este repositorio forma parte del ecosistema **HormigasAIS** y contiene los flujos de trabajo, scripts y documentación necesarios para desplegar y mantener el bot inteligente `HormigaxoxoBot-AI`, conectado con Slack y GitHub mediante una instancia autoalojada de n8n.
 
----
-
-## 📌 Objetivo
-
-Diseñar automatizaciones que conecten conversaciones humanas, herramientas colaborativas y decisiones potenciadas por IA ligera, usando:
-
-- 🧠 [![n8n-selfhost](https://img.shields.io/badge/n8n-selfhost--hormigasais-blue?logo=n8n)](https://github.com/Thrumanshow/n8n-selfhost-hormigasais.)
-
-- 🌀
-[![Newsletter en LinkedIn](https://img.shields.io/badge/LinkedIn%20Newsletter-HormigasAIS-blue?logo=linkedin)](https://www.linkedin.com/newsletters/hormigasais-community-7307138608543490048)
-
-- 🆕️
-[![Slack Comunidad](https://img.shields.io/badge/Slack-Unirse%20a%20la%20comunidad-4A154B?logo=slack)](https://join.slack.com/t/hormigas-ais/shared_invite/zt-33zssiv5x-WXs1_8mQ6_9m0O9g0VNgAA)
-
-- 🌱
-[![Overleaf Colaboración](https://img.shields.io/badge/Overleaf-Proyectos%20colaborativos-47A141?logo=overleaf)](https://www.overleaf.com/project/68211943b603360a835cd2cd)
-
-- 🌐
-[![Wikipedia Usuario](https://img.shields.io/badge/Wikipedia-Perfil%20HormigasAIS-black?logo=wikipedia)](https://uk.wikipedia.org/wiki/Користувач:HormigasAIS)
-
-- ⏯
-[![Repositorio base](https://img.shields.io/badge/GitHub-Laboratorio%20Open%20Lab-24292e?logo=github)](https://github.com/Thrumanshow/Mkdir-HormigasAIS-Open-Lab-/tree/main/.github)
-
-
-- 💬 **Slack** (interacción humana y canales)
-- 🧪 **GitHub** (gestión de código y flujos)
-- 🐍 **Python** (scripts complementarios de IA)
 
 ---
 
