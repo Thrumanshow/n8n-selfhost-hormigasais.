@@ -1,5 +1,10 @@
 # 🤖 HormigaxoxoBot-AI | n8n-selfhost-hormigasais
 
+![Render Status](https://render.com/api/v1/services/YOUR_SERVICE_ID/deploys/badge)  
+![Slack Badge](https://img.shields.io/badge/Slack-HormigasAIS-blue?logo=slack)  
+![GitHub last commit](https://img.shields.io/github/last-commit/Thrumanshow/n8n-selfhost-hormigasais)
+
+
 Este repositorio forma parte del ecosistema **HormigasAIS** y contiene los flujos de trabajo, scripts y documentación necesarios para desplegar y mantener el bot inteligente `HormigaxoxoBot-AI`, conectado con Slack y GitHub mediante una instancia autoalojada de n8n.
 
 ---
